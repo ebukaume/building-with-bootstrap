@@ -28,7 +28,7 @@ $ cd building-with-bootstrap
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/ebukaume/building-with-bootstrap/dev/index.html)
+The demo page can be found [HERE](https://ebukaume.github.io/building-with-bootstrap/)
 
 ## Contributors
 
