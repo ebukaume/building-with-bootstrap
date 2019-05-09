@@ -341,8 +341,7 @@ h6 {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(./assets/svg/icon-arrow-right-black.svg) center/contain
-    no-repeat;
+  background: url(../svg/icon-arrow-right-black.svg) center/contain no-repeat;
 }
 
 .part-title {
@@ -375,7 +374,7 @@ h6 {
 #image-article6,
 #image-article6,
 #image-article7 {
-  background-image: url(./assets/images/bg-aritcle.jpg);
+  background-image: url(../images/bg-aritcle.jpg);
 }
 
 #image-article7 {
@@ -442,8 +441,7 @@ h6 {
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background: url(./assets/images/icon-slideshows-nw.png) 0 0 / contain
-    no-repeat;
+  background: url(../images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
   color: #e9212e;
 }
 
