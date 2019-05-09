@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts-roboto.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Building with Bootstrap</title>
+  </head>
+  <body>
+    <div class="fixed-top" id="stickynav">
+      <div class="d-flex justify-content-between" id="navscroll">
+        <div class="p-2">
+          <span id="datenav">Wed, May 08, 2019</span>
+        </div>
+        <div class="p-2" id="signin">
+          <span>SIGN IN</span
+          ><a href="#" id="signinA"
+            >SUBSCRIBE <i class="fas fa-chevron-right" id="shevron"></i
+          ></a>
+          <i class="fas fa-bars" id="barsId"></i>
+        </div>
+      </div>
+
+      <div class="logoimg" id="biglogoid">
+        <img src="./assets/images/newsweek-logo.png" alt="logo" />
+      </div>
+    </div>
+
+    <nav class="header-bottom" id="navbottom">
+      <ul class="page-nav">
+        <li><a>U.S.</a></li>
+        <li><a>World</a></li>
+        <li><a>Bisiness</a></li>
+        <li><a>Tech & Science</a></li>
+        <li><a>Culture</a></li>
+        <li><a>Sports</a></li>
+        <li><a>Health</a></li>
+        <li><a>Opinion</a></li>
+        <li><a>Ndelible</a></li>
+        <li><a id="search">Search</a><i class="fas fa-search"></i></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="featured">
+        <div class="row">
+          <div class="col-md-4 col-lg order-2 order-md-1">
+            <div class="featured">
+              <div class="block-title">FEATURED STORIES</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured_stories.png"
+                      class="img-fluid"
+                      alt="Featured story"
+                    /><span class="pic-on">WORLD</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Iran Ending 'Some' Nuclear Deal Actions Amid Threats a Year
+                    After U.S. Exit
+                  </h3>
+                  <div class="summary">
+                    Iran's top diplomat said his country would stop only "some"
+                    actions it has "voluntarily" carried out. But his
+                    counterpart in the U.S., which is no longer part of the
+                    deal, said Tehran's either in or out.
+                  </div>
+                </div>
+                <div class="related">
+                  Iran and Venezuela Respond to U.S. Threats, Both Warn John
+                  Bolton Wants War
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">HEALTH</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    What’s Your Moonshot? Meet EpiBone’s Nina Tandon
+                  </h3>
+                  <div class="summary">
+                    Tandon is using stem cells and 3D printing to create living
+                    skeletal implants for those who need them.
+                  </div>
+                </div>
+                <div class="related">
+                  Oldest Ever Ancient Tattoo Kit Included Human Bones
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Dems Full-Steam Ahead to Hold Barr in Contempt, Despite DOJ
+                    Talks
+                  </h3>
+                  <div class="summary">
+                    “Right now, all systems go for the contempt hearing,”
+                    Representative Jamie Raskin, a Judiciary Committee member,
+                    told Newsweek Tuesday afternoon after meeting with House
+                    Judiciary Committee Chairman Jerrold Nadler and other
+                    committee members.
+                  </div>
+                </div>
+                <div class="related">
+                  Democrats Prepare to Hold William Barr in Contempt
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>Student Dies From Colorado STEM School Shooting</h3>
+                  <div class="summary">
+                    Two male suspects are in custody while some students remain
+                    in critical condition.
+                  </div>
+                </div>
+                <div class="related">
+                  Multiple Students Injured, 2 Suspects In Custody After School
+                  Shooting
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">WORLD</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    ZENITH'S DEFY INVENTOR IS REVOLUTIONIZING MECHANICAL
+                    WATCHMAKING
+                  </h3>
+                  <div class="summary">
+                    The new Zenith Defy Inventor showcases the groundbreaking
+                    Zenith Oscillator control system, which replaces the
+                    traditional sprung balance that’s been the standard for over
+                    three centuries.
+                  </div>
+                </div>
+                <div class="related">
+                  U.S. Blames Russia, China for Space Weapons
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">SPONSORED INSIGHT</span></a
+                  >
+                </div>
+                <div class="article-info sponsored">
+                  <h3>
+                    Law Firms: Fighting for a Noble Cause
+                  </h3>
+                  <div class="summary">
+                    Attorneys are an essential component of modern American
+                    society. But who leads the field?
+                  </div>
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-story-others.jpg"
+                      class="img-fluid"
+                      alt="Futured Story"
+                    /><span class="pic-on">SPONSORED INSIGHT</span></a
+                  >
+                </div>
+                <div class="article-info sponsored">
+                  <h3>Law Firms: Fighting for a Noble Cause</h3>
+                  <div class="summary">
+                    Attorneys are an essential component of modern American
+                    society. But who leads the field?
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-md-8 col-lg-5 order-1 order-md-2">
+            <div class="featured">
+              <div class="block-title">TOP STORY</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/top-story.png"
+                      class="img-fluid"
+                      alt="Top Story"
+                    /><span class="pic-on">WORLD</span></a
+                  >
+                </div>
+                <h3>
+                  Russia Isn't Just Interfering in Elections, It's Abusing Our
+                  Justice System
+                </h3>
+                <div class="summary">
+                  The U.S. justice system is ill-equipped to respond to
+                  politically motivated cases from abroad and to Russia’s
+                  manipulation of the system, according to experts.
+                </div>
+                <div class="related">
+                  Russian Lawyer Involved in Trump Tower Meeting Charged
+                </div>
+              </article>
+            </div>
+            <div class="featured sticky-top">
+              <div class="block-title">MORE STORIES</div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/more-stories.png"
+                    alt="More Stories"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Plane Crash Survivor: ‘I Was the Last to Walk Out—No One Else
+                  Followed‘
+                </h6>
+                <div class="summary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  fugit nemo quia.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg order-3 order-md-2" id="right-col">
+            <div class="featured">
+              <div class="block-title">OPINION</div>
+
+              <div class="wrap opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wrap opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap opinion" id="last-opinion">
+                <div class="row">
+                  <div class=" col-3">
+                    <img
+                      src="./assets/images/columnist-image.png"
+                      class="headshot"
+                      alt="Columnist opinion"
+                    />
+                  </div>
+                  <div class="col-9">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad.
+                    </p>
+                    <p class="byline">BY FULL NAME</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="featured">
+              <div class="block-title">LATEST NEWS</div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+              <div class="clearfix more-stories-part">
+                <div class="cust-image">
+                  <img
+                    src="./assets/images/latest-news.png"
+                    alt="latest news"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
+              </div>
+            </div>
+
+            <div class="featured">
+              <div class="block-title"></div>
+              <article class="sponsored-article">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/special-edition.png"
+                      class="img-fluid"
+                      alt="Special Edition"
+                    /><span class="pic-on">SPECIAL EDITION</span></a
+                  >
+                </div>
+                <div class="article-info sponsored">
+                  <h3>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h3>
+                  <div class="summary">
+                    Nearly a century ago, J.R.R. Tolkien introduced readers to
+                    the world of Middle-Earth, capturing the hearts and minds of
+                    generations to come. Explore the man behind The Hobbit and
+                    The Lord of the Rings in this new Special Edition: J.R.R.
+                    Tolkien!
+                  </div>
+                </div>
+              </article>
+
+              <div class="block">
+                <div class="d-flex align-items-center" id="add">
+                  <span class="p-2 align-self-center icon-n"></span>
+                  <span class="p-2" id="block-text"
+                    >Sign up for our Newsletter</span
+                  >
+                </div>
+
+                <span class="signup"
+                  >SIGN UP <i class="fas fa-chevron-right"></i
+                ></span>
+                <p class="update">Update your preferences »</p>
+              </div>
+
+              <article class="sponsored-article">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/sponsored-insight.png"
+                      class="img-fluid"
+                      alt="Sponsored Insight"
+                    /><span class="pic-on">SPONSORED INSIGHT</span></a
+                  >
+                </div>
+                <div class="article-info sponsored">
+                  <h3>Lorem ipsum dolor sit.</h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque, exercitationem consequatur aperiam perferendis
+                    dolorum, ex ut accusamus natus, ipsa provident harum id cum
+                    assumenda asperiores?
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="bottom">
+        <h6 class="hide">.</h6>
+        <div class="magazine">
+          <div class="row">
+            <div class="col-md-3 align-self-center">
+              <div class="wrap">
+                <a
+                  ><img
+                    src="./assets/images/top-feature.png"
+                    class="img-fluid"
+                    alt="Top featured story"
+                  /><span class="pic-on">MAY 08 ISSUE</span></a
+                >
+              </div>
+              <p class="gray">See All Features</p>
+            </div>
+
+            <div class="col-md-9">
+              <div class="row justify-content-center title-border">
+                <span class="col-12 icon-n"></span>
+                <span class="part-title">IN THE MAGAZINE</span>
+              </div>
+
+              <div class="row">
+                <article class="col-md-4 magazine-article">
+                  <div class="image-article" id="image-article1"></div>
+                  <div class="category">
+                    <span class="mag-cat">Features</span>
+                    <span class="cat"><a href="#">U.S.</a></span>
+                  </div>
+                  <h5 class="article-title">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h5>
+                </article>
+
+                <article class="col-md-4 magazine-article">
+                  <div class="image-article" id="image-article2"></div>
+                  <div class="category">
+                    <span class="mag-cat">Features</span>
+                    <span class="cat"><a href="#">U.S.</a></span>
+                  </div>
+                  <h5 class="article-title">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h5>
+                </article>
+                <article class="col-md-4 magazine-article">
+                  <div class="image-article" id="image-article3"></div>
+                  <div class="category">
+                    <span class="mag-cat">Features</span>
+                    <span class="cat"><a href="#">U.S.</a></span>
+                  </div>
+                  <h5 class="article-title">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h5>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="magazine">
+          <div class="row bottom">
+            <article class="col-md-3 magazine-article">
+              <div class="image-article" id="image-article4"></div>
+              <div class="category">
+                <span class="mag-cat">Cover</span>
+                <span class="cat"><a href="#">U.S.</a></span>
+              </div>
+              <h5 class="article-title">Lorem ipsum dolor sit amet.</h5>
+            </article>
+            <article class="col-md-3 magazine-article">
+              <div class="image-article" id="image-article5"></div>
+              <div class="category">
+                <span class="mag-cat">Downloads</span>
+                <span class="cat"><a href="#">U.S.</a></span>
+              </div>
+              <h5 class="article-title">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h5>
+            </article>
+            <article class="col-md-3 magazine-article">
+              <div class="image-article" id="image-article6"></div>
+              <div class="category">
+                <span class="mag-cat">FEATURES</span>
+                <span class="cat"><a href="#">TECH & SCIENCE</a></span>
+              </div>
+              <h5 class="article-title">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </h5>
+            </article>
+            <article class="col-md-3 magazine-article">
+              <div class="image-article" id="image-article7">
+                <span class="mag-cat" id="marathon">Big Shots</span>
+              </div>
+
+              <h5 class="article-title">Lorem ipsum dolor sit.</h5>
+            </article>
+          </div>
+        </div>
+
+        <div class="editors-pick">
+          <div class="row justify-content-center title-border container-fluid">
+            <span class="col-12 icon-n"></span>
+            <span class="part-title">EDITOR'S PICK</span>
+          </div>
+
+          <div class="featured">
+            <div class="row">
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-6 col-lg-3 editors">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/editor's-pick.png"
+                      class="img-fluid"
+                      alt="Editor's pick"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa ipsam laudantium esse.
+                  </h3>
+                  <div class="summary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sint commodi, laborum, repellat id quod sit maxime
+                    illum libero quos velit porro culpa voluptate animi.
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="editors-pick">
+          <div class="row justify-content-center title-border container-fluid">
+            <span class="col-12 icon-n" id="shadowN"></span>
+            <span class="part-title">FEATURED SLIDESHOWS</span>
+          </div>
+
+          <div class="featured">
+            <div class="row">
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">31</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">19</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">11</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">41</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">20</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+              <article class="col-md-4">
+                <div class="wrap">
+                  <a
+                    ><img
+                      src="./assets/images/featured-slideshow.jpg"
+                      class="img-fluid"
+                      alt="Featured slideshow"
+                    /><span class="count">12</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">U.S.</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-us.png"
+                    class="img-fluid"
+                    alt="Extras USA"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Kri accusantium dolor nisi. Perspiciatis, hic?
+                </h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-us.png"
+                    class="img-fluid"
+                    alt="Extras USA"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Lorem ipsum, dolor sitm dolor nisi. Perspiciatis, hic?
+                </h3>
+              </div>
+            </article>
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img src="./assets/images/more-us.jpg" alt="More US" />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-5">
+                    <img src="./assets/images/more-us.jpg" alt="More US" />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-5">
+                    <img src="./assets/images/more-us.jpg" alt="More US" />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">World</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-world.jpg"
+                    class="img-fluid"
+                    alt="Extras World"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione minima voluptas quo.
+                </h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-world.jpg"
+                    class="img-fluid"
+                    alt="Extras World"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione minima voluptas quo.
+                </h3>
+              </div>
+            </article>
+
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-world.jpg"
+                      alt="More World"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Pope Francis Is a Heretic, Conservative Catholic Group
+                      Says
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-world.jpg"
+                      alt="More World"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Pope Francis Is a Heretic, Conservative Catholic Group
+                      Says
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-world.jpg"
+                      alt="More World"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Pope Francis Is a Heretic, Conservative Catholic Group
+                      Says
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">Business</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-business.png"
+                    class="img-fluid"
+                    alt="Extras Business"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-business.png"
+                    class="img-fluid"
+                    alt="Extras Business"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-business.png"
+                      alt="More Business"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Bernie Sanders Is Most Popular Democrat on Social Media
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-business.png"
+                      alt="More Business"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Bernie Sanders Is Most Popular Democrat on Social Media
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-business.png"
+                      alt="More Business"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Bernie Sanders Is Most Popular Democrat on Social Media
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">Tech & Science</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-sci.jpg"
+                    class="img-fluid"
+                    alt="Extras Science and Tech"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, dicta repellendus!
+                </h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-sci.jpg"
+                    class="img-fluid"
+                    alt="Extras Science and Tech"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, dicta repellendus!
+                </h3>
+              </div>
+            </article>
+
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sci.jpg"
+                      alt="More Science"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sci.jpg"
+                      alt="More Science"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sci.jpg"
+                      alt="More Science"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">Culture</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-culture.jpeg"
+                    class="img-fluid"
+                    alt="Extras Culture"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-culture.jpeg"
+                    class="img-fluid"
+                    alt="Extras Culture"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-culture.jpg"
+                      alt="More Culture"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Dignissimos voluptates ipsam vel corporis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-culture.jpg"
+                      alt="More Culture"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Dignissimos voluptates ipsam vel corporis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-culture.jpg"
+                      alt="More Culture"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Dignissimos voluptates ipsam vel corporis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="picks">
+          <div class="block-title part-picks">Sports</div>
+          <div class="row">
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-sports.jpg"
+                    class="img-fluid"
+                    alt="Extras Sports"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="wrap">
+                <a href="#"
+                  ><img
+                    src="./assets/images/extras-sports.jpg"
+                    class="img-fluid"
+                    alt="Extras Sports"
+                /></a>
+              </div>
+              <div class="article-info">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </div>
+            </article>
+
+            <div class="col-md-4">
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sports.jpg"
+                      alt="More Sports"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Cupiditate sequi doloremque voluptas libero dolorum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sports.jpg"
+                      alt="More Sports"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Cupiditate sequi doloremque voluptas libero dolorum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2 top-column">
+                <div class="row">
+                  <div class=" col-5">
+                    <img
+                      src="./assets/images/more-sports.jpg"
+                      alt="More Sports"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <p class="info">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Cupiditate sequi doloremque voluptas libero dolorum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscribe">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="part-title red">SUBSCRIBE</div>
+              <div class="items">
+                <div class="item1">
+                  <img
+                    src="./assets/images/package1.png"
+                    alt="Subscribtion Package"
+                    class="itemsimg"
+                  />
+                  <h3>Digital Only</h3>
+                  <div>
+                    <span class="itemsspan"
+                      >Free access to 40+ digital editions</span
+                    >
+                    <br />
+                    <span class="itemsspan">Website access</span>
+                    <br />
+                    <span class="itemsspan">Daily Newsletter</span>
+                  </div>
+                </div>
+
+                <div class="item2">
+                  <img
+                    src="./assets/images/package2.png"
+                    alt="Subscribtion Package"
+                    class="itemsimg"
+                  />
+                  <h3>Print & Digital</h3>
+                  <div>
+                    <span class="itemsspan"
+                      >Weekly magazine, <br />delivered</span
+                    >
+                    <br />
+                    <span class="itemsspan">Daily Newsletter</span>
+                    <br />
+                    <span class="itemsspan">Website access</span>
+                  </div>
+                </div>
+
+                <div id="signin2">
+                  <a href="#">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4"></div>
+
+            <div class="col-lg-4">
+              <div class="block-title mostread">MOST READ</div>
+
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-4">
+                    <img
+                      src="./assets/images/more-reads.jpg"
+                      alt="More reads"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum, modi eos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-4">
+                    <img
+                      src="./assets/images/more-reads.jpg"
+                      alt="More reads"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum, modi eos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-4">
+                    <img
+                      src="./assets/images/more-reads.jpg"
+                      alt="More reads"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum, modi eos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-4">
+                    <img
+                      src="./assets/images/more-reads.jpg"
+                      alt="More reads"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum, modi eos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature2">
+                <div class="row">
+                  <div class=" col-4">
+                    <img
+                      src="./assets/images/more-reads.jpg"
+                      alt="More reads"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="info">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum, modi eos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-md-9 logo-footer">
+              <img src="./assets/images/logo-red.png" alt="Alternate logo" />
+              <span class="copyright">© 2019 Newsweek</span>
+            </div>
+
+            <div class="col-md-3 media-icons">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-tumblr"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-md-7 footer-bottom-left">
+              <ul class="menu row">
+                <li class="first leaf">About Us</li>
+                <li class="leaf">Corrections</li>
+                <li class="leaf">Contact Us</li>
+                <li class="leaf">Editorial Guidelines</li>
+                <li class="leaf">Advertise</li>
+                <li class="leaf">Copyright</li>
+                <li class="leaf">Terms & Conditions</li>
+                <li class="leaf">Privacy Policy</li>
+                <li class="leaf">Cookie Policy</li>
+                <li class="leaf">Terms of Sale</li>
+                <li class="leaf">Archive</li>
+                <li class="leaf">Announcements</li>
+                <li class="last leaf">Consent preferences</li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 footer-bottom-right">
+              <div class="row justify-content-between">
+                <strong class="editions col-4 text-right">Editions</strong>
+                <ul class="menu col-8 row justify-content-end" id="right">
+                  <li class="first leaf">U.S. Edition</li>
+                  <li class="leaf">Middle East</li>
+                  <li class="leaf">日本</li>
+                  <li class="leaf">한국</li>
+                  <li class="leaf">Pakistan</li>
+                  <li class="leaf">Polska</li>
+                  <li class="last leaf">România</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
